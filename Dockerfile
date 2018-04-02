@@ -1,6 +1,6 @@
-FROM python:3.6-jessie
 
 FROM hseeberger/scala-sbt
+MAINTAINER caedman2011@gmail.com
 
 RUN apt-get update
 RUN apt-get install -y python3-pip
